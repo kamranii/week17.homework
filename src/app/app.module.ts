@@ -6,6 +6,7 @@ import { SuccessComponentComponent } from './success-component/success-component
 import { WarningComponentComponent } from './warning-component/warning-component.component';
 import { AddServerComponent } from './add-server/add-server.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CustomComponentComponent } from './custom-component/custom-component.co
     SuccessComponentComponent,
     WarningComponentComponent,
     AddServerComponent,
-    CustomComponentComponent
+    CustomComponentComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
